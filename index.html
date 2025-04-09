@@ -210,39 +210,22 @@
         }
         
         /* Story Section */
-        .story-section {
-            background-color: white;
-            padding: 100px 0;
-        }
-        
-        .story-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-.story-image {
-    flex: 0 0 50%;
+      .story-section {
+    text-align: center;
 }
 
 .story-image img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-height: 600px;
-    object-fit: contain;
 }
 
-.story-content {
-    flex: 0 0 45%;
+.story-subtitle {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
 }
-        
-        .story-subtitle {
-            color: var(--primary);
-            font-weight: 600;
-            margin-bottom: 15px;
-            font-size: 1.1rem;
-        }
         
         .story-title {
             font-size: 2.5rem;
@@ -1027,32 +1010,24 @@
     </section>
     
     <!-- Story Section -->
-    <section id="story" class="story-section">
-        <div class="container story-container">
-            <div class="story-image">
-                <img src="mjjourney.png" alt="My Professional Journey">
-            </div>
-            <div class="story-content">
-                <div class="story-subtitle">MY STORY</div>
-                <h2 class="story-title">From Lab Experiments to Product Experiments</h2>
-                <p class="story-text">
-                    My journey began in a chemistry lab, where I built a foundation in scientific methods and analytical thinking. With dual Masters degrees in Chemistry and Environmental Science, I entered the professional world equipped with a unique lens for problem-solving.
-                </p>
-                <p class="story-text">
-                    At the City of San Diego, I discovered a critical gap: brilliant environmental solutions lacking intuitive software interfaces. I found myself naturally translating between technical experts and end-users, which sparked my transition into product management.
-                </p>
-                
-                <div class="quote-box">
-                    "The most valuable product managers are those who can bridge technical complexity with user simplicity. My science background gives me a unique advantage in building sustainability products that actually work."
-                    <div class="quote-author">My Product Philosophy</div>
-                </div>
-                
-                <p class="story-text">
-                    Today, I blend my technical expertise with product leadership at UL Solutions, where I've driven 15% revenue growth through user-centered approaches and data-driven decision making. The scientific method I learned years ago now guides how I test and validate product hypotheses in the high-tech sustainability space.
-                </p>
-            </div>
+<section id="story" class="story-section">
+    <div class="container">
+        <div class="section-title">
+            <div class="story-subtitle" style="text-align: center;">MY STORY</div>
+            <h2>From Lab Experiments to Product Experiments</h2>
+            <p>From chemistry lab to product leadership, I've built a career bridging technical expertise with user-focused solutions in the sustainability space.</p>
         </div>
-    </section>
+        
+        <div class="quote-box" style="max-width: 800px; margin: 30px auto;">
+            "The most valuable product managers are those who can bridge technical complexity with user simplicity. My science background gives me a unique advantage in building sustainability products that actually work."
+            <div class="quote-author">My Product Philosophy</div>
+        </div>
+        
+        <div class="story-image" style="width: 100%; max-width: 1000px; margin: 40px auto 0;">
+            <img src="mjjourney.png" alt="My Professional Journey" loading="lazy" style="width: 100%; height: auto; aspect-ratio: 2/1; object-fit: cover;">
+        </div>
+    </div>
+</section>
     
     <!-- Skills Matrix Section -->
     <section id="skills" class="section">
